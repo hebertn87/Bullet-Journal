@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuJoApp.DB\BuJoApp.DB.csproj" />
+    <ProjectReference Include="..\BuJoApp.Interfaces\BuJoApp.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

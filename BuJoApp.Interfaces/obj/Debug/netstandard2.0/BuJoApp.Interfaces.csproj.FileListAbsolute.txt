@@ -1,0 +1,8 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\bin\Debug\netstandard2.0\BuJoApp.Interfaces.deps.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\bin\Debug\netstandard2.0\BuJoApp.Interfaces.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\bin\Debug\netstandard2.0\BuJoApp.Interfaces.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\obj\Debug\netstandard2.0\BuJoApp.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\obj\Debug\netstandard2.0\BuJoApp.Interfaces.AssemblyInfoInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\obj\Debug\netstandard2.0\BuJoApp.Interfaces.AssemblyInfo.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\obj\Debug\netstandard2.0\BuJoApp.Interfaces.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Interfaces\obj\Debug\netstandard2.0\BuJoApp.Interfaces.pdb

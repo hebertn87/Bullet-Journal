@@ -1,0 +1,14 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.Shared.deps.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.Shared.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.Shared.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.DB.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.Interfaces.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.DB.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\bin\Debug\netstandard2.0\BuJoApp.Interfaces.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.csprojAssemblyReference.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.AssemblyInfoInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.AssemblyInfo.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.csproj.CopyComplete
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Shared\obj\Debug\netstandard2.0\BuJoApp.Shared.pdb

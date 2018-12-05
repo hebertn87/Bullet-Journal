@@ -1,0 +1,23 @@
+﻿<Window x:Class="BuJoApp.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuJoApp.WPF"
+        xmlns:shared="clr-namespace:BuJoApp.Shared;assembly=BuJoApp.Shared"
+        xmlns:db="clr-namespace:BuJoApp.Interfaces;assembly=BuJoApp.Interfaces"
+        mc:Ignorable="d"
+        Title="Bullet Journal!" Height="600" Width="800">
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type shared:AddTaskVM}">
+            <local:AddTaskControl/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type shared:MonthlyVM}">
+            <local:MonthlyView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <ContentPresenter Content="{Binding MainWindowVM}"/>
+</Window>
