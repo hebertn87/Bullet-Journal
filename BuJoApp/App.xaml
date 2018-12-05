@@ -1,7 +1,7 @@
-﻿<Application x:Class="BuJoApp.WPF.App"
+﻿<Application x:Class="BuJoApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:BuJoApp.WPF"
+             xmlns:local="clr-namespace:BuJoApp"
              xmlns:shared="clr-namespace:BuJoApp.Shared;assembly=BuJoApp.Shared"
              StartupUri="MainWindow.xaml">
     <Application.Resources>

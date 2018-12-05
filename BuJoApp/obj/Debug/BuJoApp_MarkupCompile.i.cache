@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\
-BuJoApp.WPF
+BuJoApp
 none
 false
 DEBUG;TRACE
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\App.xaml
-11151548125
+31893052007
 
-9-1008930215
-131569487696
-MainWindow.xaml;
+111872502740
+123-600828139
+AddTaskControl.xaml;MainWindow.xaml;MonthlyView.xaml;
 
 False
 
