@@ -1,8 +1,11 @@
 ﻿using System;
+using System.IO;
 using Avalonia;
 using Avalonia.Logging.Serilog;
 using BuJoApp.Avalonia.ViewModels;
 using BuJoApp.Avalonia.Views;
+using BuJoApp.DB;
+using BuJoApp.Interfaces;
 
 namespace BuJoApp.Avalonia
 {
@@ -10,7 +13,16 @@ namespace BuJoApp.Avalonia
     {
         static void Main(string[] args)
         {
-            BuildAvaloniaApp().Start<MainWindow>(() => new MainWindowViewModel());
+            IDataStore dataStore;
+
+            string dbPath = null;
+            string dbName = "BulletJournal.db";
+
+            dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), dbName);
+
+            dataStore = new SqliteDataStore(dbPath);
+
+            BuildAvaloniaApp().Start<MainWindow>(() => new MainWindowViewModel(dataStore));
         }
 
         public static AppBuilder BuildAvaloniaApp()

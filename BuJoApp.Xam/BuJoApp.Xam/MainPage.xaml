@@ -5,10 +5,28 @@
              x:Class="BuJoApp.Xam.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Add a new Page to your Bullet Journal!"
+               FontAttributes="Bold"
+               FontSize="Large" />
+        <Entry HeightRequest="50"
+               Placeholder="Title"
+               Text="{Binding Title}" />
+        <Entry HeightRequest="50"
+               Placeholder="Your Content"
+               Text="{Binding Content}" />
+        <Entry HeightRequest="50"
+               Placeholder="Page Number"
+               Text="{Binding PageNum}" />
+        <Button Command="{Binding AddPageCommand}"
+                Text="Add New Page" />
+        <ListView ItemsSource="{Binding Pages}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}"
+                              Detail="{Binding Content}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>

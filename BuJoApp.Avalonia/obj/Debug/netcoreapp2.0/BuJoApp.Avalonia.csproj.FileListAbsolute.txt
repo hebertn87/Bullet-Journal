@@ -1,0 +1,11 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\bin\Debug\netcoreapp2.0\BuJoApp.Avalonia.deps.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\bin\Debug\netcoreapp2.0\BuJoApp.Avalonia.runtimeconfig.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\bin\Debug\netcoreapp2.0\BuJoApp.Avalonia.runtimeconfig.dev.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\bin\Debug\netcoreapp2.0\BuJoApp.Avalonia.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\bin\Debug\netcoreapp2.0\BuJoApp.Avalonia.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.csprojAssemblyReference.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.csproj.CoreCompileInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.AssemblyInfoInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.AssemblyInfo.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Avalonia\obj\Debug\netcoreapp2.0\BuJoApp.Avalonia.pdb

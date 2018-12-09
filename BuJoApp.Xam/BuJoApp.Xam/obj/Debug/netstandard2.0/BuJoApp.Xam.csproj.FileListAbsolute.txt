@@ -1,0 +1,12 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\bin\Debug\netstandard2.0\BuJoApp.Xam.deps.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\bin\Debug\netstandard2.0\BuJoApp.Xam.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\bin\Debug\netstandard2.0\BuJoApp.Xam.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.csprojAssemblyReference.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.csproj.CoreCompileInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.AssemblyInfoInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.AssemblyInfo.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Xam\BuJoApp.Xam\obj\Debug\netstandard2.0\BuJoApp.Xam.pdb

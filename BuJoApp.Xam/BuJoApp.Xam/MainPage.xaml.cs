@@ -13,5 +13,10 @@ namespace BuJoApp.Xam
         {
             InitializeComponent();
         }
+
+        public MainPage(MainPageVM vm) : this()
+        {
+            BindingContext = vm;
+        }
     }
 }
