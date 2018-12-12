@@ -17,7 +17,7 @@ namespace BuJoApp.Shared
         public void Execute(Object param)
         {
             if (param is TaskVM taskList)
-                taskList.TaskItem.Remove(taskList);
+                taskList.TaskItem.Remove(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
         }
-    } 
+    }  
 }
