@@ -4,7 +4,7 @@ namespace Tests
 {
     public class Tests
     {
-        [SetUp]
+        [Test]
         public void AddTask()
         {
             

@@ -7,7 +7,7 @@
         xmlns:shared="clr-namespace:BuJoApp.Shared;assembly=BuJoApp.Shared"
         xmlns:wpf="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
         mc:Ignorable="d"
-        Title="Bullet Journal!" Height="600" Width="800">
+        Title="Bullet Journal!" Height="600" Width="800" Background="White">
 
     <DockPanel>
         <Grid DockPanel.Dock="Top">
@@ -16,24 +16,28 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
-                <DataGrid CanUserDeleteRows="False" SelectedItem="{Binding TaskIteem, Mode=TwoWay}" ItemsSource="{Binding TaskItem}" HorizontalAlignment="Center" VerticalAlignment="Top" AutoGenerateColumns="False" Name="taskListDataGrid" Margin="0">
+            <Grid Grid.Row="0" Background="#FFFFF9E8">
+                <DataGrid CanUserDeleteRows="False" SelectedItem="{Binding TaskIteem, Mode=TwoWay}" ItemsSource="{Binding TaskItem}" HorizontalAlignment="Center" VerticalAlignment="Top" AutoGenerateColumns="False" Name="taskListDataGrid" Margin="0" Background="#FFF9E773">
                     <DataGrid.InputBindings>
                         <KeyBinding Key="Delete" Command="{Binding DelTaskCommand}"/>
                     </DataGrid.InputBindings>
                     <DataGrid.Columns>
                         <DataGridCheckBoxColumn Width="2*" Header="Check Done" Binding="{Binding IsDone}"/>
                         <DataGridTextColumn Width="4*" Header="Task Name" Binding="{Binding Name}" />
-                        <DataGridTextColumn Width="4*" Header="Description" Binding ="{Binding Des}" />
+                        <DataGridTextColumn Width="4*" Header="Description" Binding ="{Binding Desc}" />
                         <DataGridTextColumn Width="2*" Header="Priority" Binding="{Binding Priority}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
 
             <Grid Grid.Row="1">
-                <Expander DockPanel.Dock="Bottom" ExpandDirection="Up" MaxHeight="100" Header="Expand Add Task text boxes" >
+                <Expander DockPanel.Dock="Bottom" ExpandDirection="Up" MaxHeight="100" Header="Expand Add Task text boxes" Background="#FFAFEAE4" >
                     <GroupBox>
                         <Grid MaxHeight="100">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="4*"/>
                                 <ColumnDefinition Width="4*"/>
@@ -42,24 +46,29 @@
                             </Grid.ColumnDefinitions>
 
                             <Grid Grid.Column="0" x:Name="Name">
-                                <TextBlock Text="Name" Grid.Column="0"/>
-                                <TextBox Text="{Binding Name, Mode=TwoWay}"/>
+                                <TextBlock Text="Name" Grid.Row="0"/>
+                                <TextBox Text="{Binding Name, Mode=TwoWay}" Margin="0,16.611,0,-16.611"/>
+                                <TextBox Text="{Binding Name, Mode=TwoWay}" Margin="0,16.611,0,-16.611"/>
                             </Grid>
                             <Grid Grid.Column="1" x:Name="Description">
                                 <TextBlock Text="Description" Grid.Column="1"/>
-                                <TextBox Text="{Binding Desc, Mode=TwoWay}"/>
+                                <TextBox Text="{Binding Desc, Mode=TwoWay}" Margin="0,16.611,0,-16.611"/>
                             </Grid>
                             <Grid Grid.Column="2" x:Name="Priority">
-                                <TextBlock  Text="Priority Level" Grid.Column="2"/>
-                                <TextBox Text="{Binding Priority, Mode=TwoWay}"/>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="86*"/>
+                                    <ColumnDefinition Width="27*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock  Text="Priority Level" Grid.ColumnSpan="2"/>
+                                <TextBox Text="{Binding Priority, Mode=TwoWay}" Margin="0,16.611,0,-16.611" Grid.ColumnSpan="2" Height="16.611" VerticalAlignment="Top"/>
                             </Grid>
-                            <Button Name="addbutton" Grid.Column="4" Content="Add To Do" Command="{Binding AddTaskCommand}" CommandParameter="{Binding}">
+                            <Button Name="addbutton" Grid.Column="3" Content="Add To Do" Command="{Binding AddTaskCommand}" CommandParameter="{Binding}" Grid.RowSpan="2">
                                 <Button.ToolTip>
                                     <ToolTip>
                                         <StackPanel>
                                             <TextBlock FontWeight="Bold">Add a Task To the list</TextBlock>
                                             <TextBlock>Submits a Task to the grid.</TextBlock>
-                                        </StackPanel> 
+                                        </StackPanel>
                                     </ToolTip>
                                 </Button.ToolTip>
                             </Button>
