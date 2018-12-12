@@ -1,0 +1,15 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\BuJoApp.Tests.deps.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\BuJoApp.Tests.runtimeconfig.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\BuJoApp.Tests.runtimeconfig.dev.json
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\BuJoApp.Tests.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\bin\Debug\netcoreapp2.1\BuJoApp.Tests.pdb
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.csprojAssemblyReference.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.csproj.CoreCompileInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.AssemblyInfoInputs.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.AssemblyInfo.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.dll
+C:\Users\heber\source\repos\BuJoApp\BuJoApp.Tests\obj\Debug\netcoreapp2.1\BuJoApp.Tests.pdb
