@@ -17,7 +17,7 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" Background="#FFFFF9E8">
-                <DataGrid CanUserDeleteRows="False" SelectedItem="{Binding TaskIteem, Mode=TwoWay}" ItemsSource="{Binding TaskItem}" HorizontalAlignment="Center" VerticalAlignment="Top" AutoGenerateColumns="False" Name="taskListDataGrid" Margin="0" Background="#FFF9E773">
+                <DataGrid CanUserDeleteRows="True" SelectedItem="{Binding TaskItem, Mode=TwoWay}" ItemsSource="{Binding TaskItem}" HorizontalAlignment="Center" VerticalAlignment="Top" AutoGenerateColumns="False" Name="taskListDataGrid" Margin="0" Background="#FFF9E773">
                     <DataGrid.InputBindings>
                         <KeyBinding Key="Delete" Command="{Binding DelTaskCommand}"/>
                     </DataGrid.InputBindings>

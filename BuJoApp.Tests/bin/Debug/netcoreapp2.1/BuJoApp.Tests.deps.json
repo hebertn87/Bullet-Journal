@@ -1,19 +1,33 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "2914bdf5329141fa92e1afb858a62e1c7edf8dce"
+    "signature": "9a4719a729797d30e245b416a750870f671be75b"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "BuJoApp.Tests/1.0.0": {
         "dependencies": {
+          "BuJoApp.DB": "1.0.0",
+          "BuJoApp.Shared": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "NUnit3TestAdapter": "3.10.0",
           "NUnit": "3.10.1"
         },
         "runtime": {
           "BuJoApp.Tests.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/15.8.0": {
@@ -1030,6 +1044,19 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "BuJoApp.DB/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.2.0"
+        },
+        "runtime": {
+          "BuJoApp.DB.dll": {}
+        }
+      },
+      "BuJoApp.Shared/1.0.0": {
+        "runtime": {
+          "BuJoApp.Shared.dll": {}
+        }
       }
     }
   },
@@ -1038,6 +1065,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.8.0": {
       "type": "package",
@@ -1535,6 +1569,16 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "BuJoApp.DB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuJoApp.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

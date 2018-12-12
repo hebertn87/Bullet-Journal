@@ -18,7 +18,7 @@ namespace BuJoApp.Shared
         public void Execute(Object param)
         {
             if (param is TaskVM taskList)
-                taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });         
+                taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
         }
     }
 }
