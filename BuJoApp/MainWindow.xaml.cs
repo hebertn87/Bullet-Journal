@@ -27,5 +27,12 @@ namespace BuJoApp
             InitializeComponent();
             this.DataContext = new TaskVM();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NameBox.Text = "";
+            Desc.Text = "";
+            Prior.Text = "";
+        }
     }
 }
