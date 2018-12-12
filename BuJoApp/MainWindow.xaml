@@ -43,7 +43,6 @@
                                 <ColumnDefinition Width="4*"/>
                                 <ColumnDefinition Width="4*"/>
                                 <ColumnDefinition Width="*" MinWidth="100"/>
-                                <ColumnDefinition Width="*" MinWidth="100"/>
                             </Grid.ColumnDefinitions>
 
                             <Grid Grid.Column="0" x:Name="Name">
@@ -73,7 +72,6 @@
                                     </ToolTip>
                                 </Button.ToolTip>
                             </Button>
-                            <Button Name="clrallbutton" Grid.Column="4" Click="clrAll_Click" Content="Clear all Checked" Grid.RowSpan="2"/>
                         </Grid>
                     </GroupBox>
                 </Expander>
