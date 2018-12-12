@@ -7,16 +7,16 @@ using System.Collections.ObjectModel;
 
 namespace BuJoApp.Shared
 {
-    public class AddTaskVM : INotifyPropertyChanged
+    public class TaskVM : INotifyPropertyChanged
     {
-        public ObservableCollection<AddTaskVM> tasks = new ObservableCollection<AddTaskVM>();
+        public ObservableCollection<TaskVM> tasks = new ObservableCollection<TaskVM>();
 
-        public ObservableCollection<AddTaskVM> TaskItem
+        public ObservableCollection<TaskVM> TaskItem
         {
             get { return tasks; }
             set
             {
-                if(tasks != value)
+                if (tasks != value)
                 {
                     tasks = value;
                     NotifyPropertyChanged(nameof(tasks));
@@ -24,10 +24,12 @@ namespace BuJoApp.Shared
             }
         }
 
+        public ICommand DelTasknCommand {get { return new DelTaskCommand(); } }
+
         public String Name { get; set; }
         public String Desc { get; set; }
         public String Priority { get; set; }
-        public String IsDone { get; set; }
+        public bool IsDone { get; set; }
 
         public ICommand AddTaskCommand { get { return new AddTaskCommand(); } }
 

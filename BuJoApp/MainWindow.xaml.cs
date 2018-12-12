@@ -1,5 +1,4 @@
-﻿using BuJoApp.Interfaces;
-using BuJoApp.Shared;
+﻿using BuJoApp.Shared;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -15,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using BuJoApp.Shared;
 
 namespace BuJoApp
 {
@@ -27,7 +25,7 @@ namespace BuJoApp
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new AddTaskVM();
+            this.DataContext = new TaskVM();
         }
     }
 }

@@ -100,10 +100,6 @@
       <Project>{d625c79a-8c61-4e0a-bfa5-4c5732ba0c80}</Project>
       <Name>BuJoApp.DB</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BuJoApp.Interfaces\BuJoApp.Interfaces.csproj">
-      <Project>{b547f67c-9efe-41fd-881c-7f244e1de701}</Project>
-      <Name>BuJoApp.Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BuJoApp.Shared\BuJoApp.Shared.csproj">
       <Project>{256acae3-225c-4c8a-9c39-7e259b843b7e}</Project>
       <Name>BuJoApp.Shared</Name>

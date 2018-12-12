@@ -9,7 +9,6 @@
     ".NETStandard,Version=v2.0/": {
       "BuJoApp.DB/1.0.0": {
         "dependencies": {
-          "BuJoApp.Interfaces": "1.0.0",
           "EntityFramework": "6.2.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -33,11 +32,6 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
-      "BuJoApp.Interfaces/1.0.0": {
-        "runtime": {
-          "BuJoApp.Interfaces.dll": {}
         }
       }
     }
@@ -68,11 +62,6 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
-    },
-    "BuJoApp.Interfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

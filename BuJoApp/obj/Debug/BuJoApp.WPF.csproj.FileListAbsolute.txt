@@ -1,3 +1,9 @@
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.WPF.csprojAssemblyReference.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.exe.config
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\MainWindow.g.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\App.g.cs
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp_MarkupCompile.cache
+C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp_MarkupCompile.lref
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.exe.config
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.exe
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.pdb
@@ -98,17 +104,9 @@ C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\System.Xml.XmlSerializer.d
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\System.Xml.XPath.dll
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.DB.dll
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.Interfaces.dll
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.Shared.dll
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.DB.pdb
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.Interfaces.pdb
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\bin\Debug\BuJoApp.Shared.pdb
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.WPF.csprojAssemblyReference.cache
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.exe.config
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\MainWindow.g.cs
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\App.g.cs
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp_MarkupCompile.cache
-C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp_MarkupCompile.lref
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\MainWindow.baml
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.g.resources
 C:\Users\heber\source\repos\BuJoApp\BuJoApp\obj\Debug\BuJoApp.Properties.Resources.resources

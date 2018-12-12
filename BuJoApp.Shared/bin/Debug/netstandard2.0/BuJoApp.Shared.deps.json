@@ -10,7 +10,6 @@
       "BuJoApp.Shared/1.0.0": {
         "dependencies": {
           "BuJoApp.DB": "1.0.0",
-          "BuJoApp.Interfaces": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -37,16 +36,10 @@
       },
       "BuJoApp.DB/1.0.0": {
         "dependencies": {
-          "BuJoApp.Interfaces": "1.0.0",
           "EntityFramework": "6.2.0"
         },
         "runtime": {
           "BuJoApp.DB.dll": {}
-        }
-      },
-      "BuJoApp.Interfaces/1.0.0": {
-        "runtime": {
-          "BuJoApp.Interfaces.dll": {}
         }
       }
     }
@@ -79,11 +72,6 @@
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "BuJoApp.DB/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BuJoApp.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

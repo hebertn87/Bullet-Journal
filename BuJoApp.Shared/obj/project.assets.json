@@ -41,7 +41,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BuJoApp.Interfaces": "1.0.0",
           "EntityFramework": "6.2.0"
         },
         "compile": {
@@ -49,16 +48,6 @@
         },
         "runtime": {
           "bin/placeholder/BuJoApp.DB.dll": {}
-        }
-      },
-      "BuJoApp.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/BuJoApp.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BuJoApp.Interfaces.dll": {}
         }
       }
     }
@@ -241,17 +230,11 @@
       "type": "project",
       "path": "../BuJoApp.DB/BuJoApp.DB.csproj",
       "msbuildProject": "../BuJoApp.DB/BuJoApp.DB.csproj"
-    },
-    "BuJoApp.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../BuJoApp.Interfaces/BuJoApp.Interfaces.csproj",
-      "msbuildProject": "../BuJoApp.Interfaces/BuJoApp.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "BuJoApp.DB >= 1.0.0",
-      "BuJoApp.Interfaces >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -287,9 +270,6 @@
           "projectReferences": {
             "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.DB\\BuJoApp.DB.csproj": {
               "projectPath": "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.DB\\BuJoApp.DB.csproj"
-            },
-            "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.Interfaces\\BuJoApp.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.Interfaces\\BuJoApp.Interfaces.csproj"
             }
           }
         }

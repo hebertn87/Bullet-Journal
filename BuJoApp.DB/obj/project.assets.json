@@ -36,16 +36,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "BuJoApp.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/BuJoApp.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BuJoApp.Interfaces.dll": {}
-        }
       }
     }
   },
@@ -222,16 +212,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "BuJoApp.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../BuJoApp.Interfaces/BuJoApp.Interfaces.csproj",
-      "msbuildProject": "../BuJoApp.Interfaces/BuJoApp.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "BuJoApp.Interfaces >= 1.0.0",
       "EntityFramework >= 6.2.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -265,11 +249,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.Interfaces\\BuJoApp.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\heber\\source\\repos\\BuJoApp\\BuJoApp.Interfaces\\BuJoApp.Interfaces.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
