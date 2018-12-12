@@ -52,5 +52,58 @@ namespace Tests
             taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
             Assert.AreEqual(taskList.TaskItem[0].IsDone, isDoneTest);
         }
+
+        [Test]
+        public void RemoveAll()
+        {
+            taskList.Name = "ahlo";
+            taskList.Desc = "This"; ;
+            taskList.Priority = "1000";
+            taskList.IsDone = true;
+            taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
+            taskList.TaskItem.Clear();
+
+            Assert.AreEqual(0, taskList.TaskItem.Count);
+        }
+
+        [Test]
+        public void RemoveName()
+        {
+            taskList.Name = "ahlo";
+
+            taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
+            taskList.TaskItem.RemoveAt(0);
+            Assert.AreEqual(0, taskList.TaskItem.Count);
+        }
+
+        [Test]
+        public void RemoveDesc()
+        {
+            taskList.Desc = "This"; 
+
+            taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
+            taskList.TaskItem.RemoveAt(0);
+            Assert.AreEqual(0, taskList.TaskItem.Count);
+        }
+
+        [Test]
+        public void RemovePriority()
+        {
+            taskList.Priority = "1000";
+
+            taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
+            taskList.TaskItem.RemoveAt(0);
+            Assert.AreEqual(0, taskList.TaskItem.Count);
+        }
+
+        [Test]
+        public void RemoveIsDone()
+        {
+            taskList.IsDone = true;
+
+            taskList.TaskItem.Add(new TaskVM() { Name = taskList.Name, Desc = taskList.Desc, Priority = taskList.Priority, IsDone = taskList.IsDone });
+            taskList.TaskItem.RemoveAt(0);
+            Assert.AreEqual(0, taskList.TaskItem.Count);
+        }
     }
 }
