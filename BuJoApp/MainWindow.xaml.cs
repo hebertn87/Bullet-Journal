@@ -1,6 +1,8 @@
-﻿using BuJoApp.Shared;
+﻿using BuJoApp.Interfaces;
+using BuJoApp.Shared;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BuJoApp.Shared;
 
 namespace BuJoApp
 {
@@ -24,10 +27,7 @@ namespace BuJoApp
         public MainWindow()
         {
             InitializeComponent();
-            var dataStore = new DB.SqliteDataStore("WPFbulletjournal.db");
-            dataStore.AddTask(new Interfaces.Task("Name", "Desc", "Priority"));
-            var vm = new NavigationVM();
-            this.DataContext = vm;     
+            this.DataContext = new AddTaskVM();
         }
     }
 }

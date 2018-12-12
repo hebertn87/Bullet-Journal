@@ -1,5 +1,4 @@
 ﻿using System;
-using BuJoApp.Interfaces;
 using System.Windows.Input;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,65 +7,35 @@ using System.Collections.ObjectModel;
 
 namespace BuJoApp.Shared
 {
-    public class AddTaskVM : INotifyPropertyChanged, IPageVM
+    public class AddTaskVM : INotifyPropertyChanged
     {
-        public string Nameof
+        public ObservableCollection<AddTaskVM> tasks = new ObservableCollection<AddTaskVM>();
+
+        public ObservableCollection<AddTaskVM> TaskItem
         {
-            get { return "AddPage"; }
+            get { return tasks; }
+            set
+            {
+                if(tasks != value)
+                {
+                    tasks = value;
+                    NotifyPropertyChanged(nameof(tasks));
+                }
+            }
         }
 
-        private readonly TaskContext repo;
+        public String Name { get; set; }
+        public String Desc { get; set; }
+        public String Priority { get; set; }
+        public String IsDone { get; set; }
 
-        public AddTaskVM(TaskContext repo)
-        {
-            this.repo = repo ?? throw new ArgumentNullException(nameof(repo));
-            
-        }
-
-        private String name;
-        public String Name
-        {
-            get { return name; }
-            set { SetField(ref name, value); }
-        }
-
-        private String description;
-        public String Description
-        {
-            get { return description; }
-            set { SetField(ref description, value); }
-        }
-
-        private String priority;
-        public String Priority
-        {
-            get { return priority; }
-            set { SetField(ref priority, value); }
-        }
+        public ICommand AddTaskCommand { get { return new AddTaskCommand(); } }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged([CallerMemberName] String propertyName = null)
+        protected void NotifyPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        protected bool SetField<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
-        {
-            if (EqualityComparer<T>.Default.Equals(field, value))
-                return false;
-            field = value;
-            OnPropertyChanged(propertyName);
-            return true;
-        }
-
-        private ICommand addTask;
-        public ICommand AddTask => addTask ?? (addTask = new BuJoCommand(param =>
-        {
-            repo.AddTask(new Task(Name, Description, Priority));
-        }));
-
-        public ObservableCollection<Task> Tasks { get; private set; }
-
     }
 }

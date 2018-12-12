@@ -22,5 +22,18 @@ namespace BuJoApp.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\heber\\source\\repos\\B" +
+            "uJoApp\\BuJoApp.DB\\TaskDB.mdf;Integrated Security=True")]
+        public string connection_string {
+            get {
+                return ((string)(this["connection_string"]));
+            }
+            set {
+                this["connection_string"] = value;
+            }
+        }
     }
 }
